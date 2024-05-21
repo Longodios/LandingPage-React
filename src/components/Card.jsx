@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 const Card = (props) => {
     return (
         
-        <div className=" m-5">
-            <div>
-            <img className="rounded-t-xl  sm:size-full" src={props.PropImage}></img>
+        <div className=" m-5 mt-20">
+            <div className="">
+            <img className="rounded-t object-cover h-48 size-full" src={props.PropImage}></img>
             </div>
                
                 <h3 className="text-xl font-bold my-3 max-sm:text-center">{props.PropTitle}</h3>

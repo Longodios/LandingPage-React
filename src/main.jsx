@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import NavBar from "./NavBar"
+import NavBar from "./components/NavBar"
 import WelcomeCard from './WelcomeCard'
-import Card from "./Card";
-import GroupCards from './GroupCards';
-import Footer from './Footer';
+import Card from "./components/Card";
+import GroupCards from './components/GroupCards';
+import Footer from './components/Footer';
 import './index.css'
 
 
